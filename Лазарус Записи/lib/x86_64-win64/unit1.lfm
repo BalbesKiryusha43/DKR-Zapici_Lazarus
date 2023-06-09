@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 289
+  Height = 352
+  Top = 127
+  Width = 479
+  Caption = 'Form1'
+  ClientHeight = 352
+  ClientWidth = 479
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 30
+    Top = 24
+    Width = 425
+    Caption = ' Введите фамилию и щелкните на кнопке '#13#10'Добавить или Удалить. Для просмотра списка щелкните по кнопке Показать'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 63
+    Height = 15
+    Top = 100
+    Width = 51
+    Caption = 'Фамилия'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 69
+    Height = 15
+    Top = 139
+    Width = 24
+    Caption = 'Имя'
+    ParentColor = False
+  end
+  object FirstNameEdit: TEdit
+    Left = 136
+    Height = 23
+    Top = 100
+    Width = 192
+    TabOrder = 0
+  end
+  object LastNameEdit: TEdit
+    Left = 136
+    Height = 23
+    Top = 144
+    Width = 192
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'Добавить'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 151
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'Удалить'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 280
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'Показать'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object ListBox: TListBox
+    Left = 349
+    Height = 80
+    Top = 88
+    Width = 100
+    ItemHeight = 0
+    TabOrder = 5
+  end
+end
